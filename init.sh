@@ -1,0 +1,3 @@
+make generate_genesis_data
+sleep 2
+make init_geth_genesis
