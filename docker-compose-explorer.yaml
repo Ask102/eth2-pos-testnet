@@ -12,7 +12,7 @@ services:
     networks:
       network_eth:
         ipv4_address: 172.21.0.2
-    image: ethereum/client-go:v1.13.14
+    image: ethereum/client-go:v1.14.13
     command:
       - --networkid=3151908
       - --state.scheme=path

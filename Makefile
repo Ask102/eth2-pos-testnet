@@ -28,7 +28,7 @@ init_geth_genesis:
 	@docker run --rm -it \
 	-v $(PWD_DIR)/data/execution-data:/execution-data \
 	-v $(PWD_DIR)/genesis_data/el-cl-genesis-data:/el-cl-genesis-data \
-	ethereum/client-go:v1.13.14 \
+	ethereum/client-go:v1.14.13 \
 	--datadir=/execution-data \
 	init /el-cl-genesis-data/network-configs/genesis.json
 
